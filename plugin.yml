@@ -1,0 +1,13 @@
+name: RuleMaster
+version: 1.0.0
+main: RTG\RuleMaster\Rule
+api: 2.1.0
+author: IG
+commands:
+  r:
+    usage: "/r < 1 | 2 >"
+    permission: rule.command
+    description: "Server Rules!"
+permissions:
+  rule.command:
+    default: op
